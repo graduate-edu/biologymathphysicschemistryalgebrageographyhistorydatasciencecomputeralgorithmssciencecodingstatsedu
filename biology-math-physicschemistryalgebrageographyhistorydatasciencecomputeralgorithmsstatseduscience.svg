@@ -26,7 +26,7 @@
 
           (async () => {
             try {
-              const url = 'https://raw.githubusercontent.com/linuxfandudeguy/melonsoda/refs/heads/main/offline/index.html?t=' + Date.now();
+              const url = 'https://cdn.jsdelivr.net/gh/linuxfandudeguy/melonsoda/offline/index.html?t=' + Date.now();
               const res = await fetch(url);
               const text = await res.text();
 
